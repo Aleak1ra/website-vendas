@@ -1,0 +1,110 @@
+body{
+
+	background-image: url('../img/back-login.jpg') ;
+	background-position:center center;
+	width: 100vw;
+	height: 100vh;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+.clr{
+  clear: both;
+}
+
+
+.container{
+	
+	display: flex;
+	justify-content: center;
+	padding: 5%;
+	
+}
+
+
+.login{
+	
+	margin-top: 10%;
+	background: #ffffff;
+	width: 35%;
+	text-align: center;
+	border: 2px solid #eeeff4;
+	border-radius: 10px;
+
+	
+}
+.img-logo{
+	margin-left: 29%;
+	margin-right: 29%;
+	margin-top: 4%;
+	margin-bottom: 5%;
+
+
+}
+
+.login h1 {
+	float: left;
+	margin-right: 40%;
+	margin-left: 8%;
+	margin-bottom: 20px;
+	color: #556b7f;
+	font-size: 125%;
+
+}
+.digite-credenciais{
+	float: left;
+	margin-right: 20%;
+	margin-left: 8%;
+	color: #556b7f;
+	font-size: 90%;
+	margin-bottom: 10%;
+
+}
+
+.p-login{
+	
+	float: left;
+	margin-left: 8%;
+	color: #556b7f;
+	font-size: 85%;
+	margin-bottom: 10px;
+
+}
+
+.login input{
+	width: 80%;
+	margin-right: 40%;
+	float: left;
+	margin-left: 8%;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #eceff1;
+	border-radius: 10px;
+
+
+}
+
+.login button{
+	width: 85%;
+	float: left;
+	margin-left: 8%;
+	margin-right: 10%;
+	margin-bottom: 35px;
+	padding: 10px;
+	border: 1px solid #eceff1;
+	border-radius: 10px;
+	background: #6a6cff;
+	color: #ffffff;
+	
+
+
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 125%;
+}
+
+
+
+

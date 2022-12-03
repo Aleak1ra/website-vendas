@@ -1,0 +1,134 @@
+ul {
+  color: #98a4b0;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-inline-start: 0px;
+}
+
+p {
+  color: #98a4b0;
+  font-weight: 600;
+  margin: 20px;
+  font-size: 80%;
+}
+
+h6 {
+  margin: 2%;
+  font-size: 120%;
+  width: 58%;
+  color: #7276fe;
+}
+
+.box-1 {
+  float: left;
+  width: 20%;
+  border: solid 1px #fff;
+  box-shadow: -3px 1px 17px -4px rgba(199, 199, 199, 1);
+  box-shadow: -3px 1px 17px -4px rgba(199, 199, 199, 1);
+  box-shadow: -3px 1px 17px -4px rgba(199, 199, 199, 1);
+  height: 100vh;
+}
+
+.logo {
+  margin-top: 4%;
+  margin-left: 4%;
+  margin-right: 20%;
+}
+
+.icon {
+  float: left;
+  margin-right: 20px;
+  margin-left: 32px;
+}
+.symbol {
+  font-weight: bold;
+  color: #98a4b0;
+  float: right;
+}
+.options {
+  float: left;
+  color: #98a4b0;
+  font-weight: 600;
+}
+
+.btn1 {
+  width: 100%;
+  margin-right: 10%;
+  padding: 12px;
+  margin-bottom: 2%;
+}
+.btn-outline-primary {
+  border: none;
+}
+
+.btn-outline-primary:hover {
+  background-color: #e7e7ff;
+  color: #007bff;
+  border-color: #e7e7ff;
+}
+
+.box-2 {
+  width: 77%;
+  padding: 1%;
+  float: left;
+  margin-top: 14px;
+  margin-left: 2%;
+  border-radius: 10px;
+  box-shadow: -3px 1px 17px -4px rgb(199 199 199);
+  box-shadow: -3px 1px 17px -4px rgb(199 199 199);
+  box-shadow: -3px 1px 17px -4px rgb(199 199 199);
+}
+
+.search {
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+}
+
+.form-control {
+  border: none;
+}
+
+.box-3 {
+  float: left;
+  margin-top: 28px;
+  margin-left: 25px;
+  width: 49%;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  box-shadow: -3px 1px 17px -4px rgb(199 199 199);
+  box-shadow: -3px 1px 17px -4px rgb(199 199 199);
+  box-shadow: -3px 1px 17px -4px rgb(199 199 199);
+}
+.text-box-3 {
+  margin: 2%;
+  font-size: 100%;
+}
+.boneco {
+  float: right;
+}
+
+.btn2 {
+  background-color: #ffff;
+  border: solid 1px #7072ff;
+  color: #007bff;
+  margin-left: 10px;
+  margin-top: 35px;
+  padding: 4px 11px;
+  font-size: 75%;
+}
+
+a:not([href]):not([tabindex]) {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer {
+  padding-top: 48%;
+  padding-left: 22%;
+  color: #98a4b0;
+  font-weight: 600;
+  margin: 0;
+  font-size: 100%;
+}

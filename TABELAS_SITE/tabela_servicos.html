@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styleservicos.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <nav class="box-1">
+        <div class="row">
+          <img class="logo" src="img/logo-app.png" />
+          <a href="file:///C:/Users/alexa/OneDrive/Área%20de%20Trabalho/Faculdade/Projetos_html/Menu/index.html" class="btn btn-outline-primary btn1">
+            <img class="icon" src="img/megafone.png" />
+              <ul class="options">
+                Dashboard
+              </ul>
+            </a>
+          </a>
+        </div>
+        <p>CADASTRO</p>
+        <div class="row">
+          <a
+            href="file:///C:/Users/alexa/OneDrive/Área%20de%20Trabalho/Faculdade/Projetos_html/TABELAS_SITE/tabela_usuario.html"
+            class="btn btn-outline-primary btn1"
+          >
+            <img class="icon" src="img/usuario.png" />
+
+            <ul class="options">
+              Usuário
+            </ul>
+
+            <div class="symbol">
+              <b>></b>
+            </div>
+          </a>
+        </div>
+
+        <div class="row">
+          <a
+            class="btn btn-outline-primary btn1"
+            href="file:///C:/Users/alexa/OneDrive/Área%20de%20Trabalho/Faculdade/Projetos_html/TABELAS_SITE/tabela_produtos.html"
+          >
+            <img class="icon" src="img/produtos.png" />
+            <ul class="options">
+              Produtos
+            </ul>
+            <div class="symbol">
+              <b>></b>
+            </div>
+          </a>
+        </div>
+        <div class="row">
+          <a
+            href="file:///C:/Users/alexa/OneDrive/Área%20de%20Trabalho/Faculdade/Projetos_html/TABELAS_SITE/tabela_servicos.html"
+            class="btn btn-outline-primary btn1"
+          >
+            <img class="icon" src="img/servicos.png" />
+            <ul class="options">
+              Serviços
+            </ul>
+            <div class="symbol">
+              <b>></b>
+            </div>
+          </a>
+        </div>
+        <p>RELATÓRIOS</p>
+        <div class="row">
+          <a class="btn btn-outline-primary btn1">
+            <img class="icon" src="img/por-vendedor.png" />
+            <ul class="options">
+              Por Vendedor
+            </ul>
+          </a>
+        </div>
+        <div class="row">
+          <a class="btn btn-outline-primary btn1">
+            <img class="icon" src="img/arquivo.png" />
+            <ul class="options">
+              Por Arquivo
+            </ul>
+            <div class="symbol">
+              <b>></b>
+            </div>
+          </a>
+        </div>
+        <div class="row">
+          <a class="btn btn-outline-primary btn1">
+            <img class="icon" src="img/abrir.png" />
+            <ul class="options">
+              Comparativo
+            </ul>
+            <div class="symbol">
+              <b>></b>
+            </div>
+          </a>
+        </div>
+        <div class="row">
+          <a class="btn btn-outline-primary btn1">
+            <img class="icon" src="img/melhores-vendas.png" />
+            <ul class="options">
+              Melhores Vendas
+            </ul>
+          </a>
+        </div>
+      </nav>
+
+      <div class="box-2">
+        <h2>Cadastro de Serviços</h2>
+        <form>
+          <label for="text"> Descrição do serviço</label>
+          <input type="text" placeholder="Ex: Entrega de armário">
+          <label for="text"> Categoria</label>
+          <input type="text" placeholder="Ex: Frete">
+          <label for="text"> Valor</label>
+          <input type="text" placeholder="99,00R$">
+        </form>
+        <button type="submit" class="btn btn-primary btn-lg botao-cadastro">Cadastrar</button>
+        
+      </div>
+
+      <div class="box-3">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Descrição do serviço</th>
+              <th scope="col">Categoria</th>
+              <th scope="col">Valor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Instalação de Ar Condicionado</td>
+              <td>Instalação</td>
+              <td>
+                700,00R$
+              </td>
+              <td>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-secondary active">
+                    <input
+                      type="radio"
+                      name="options"
+                      id="option1"
+                      autocomplete="off"
+                      checked
+                    />
+                    Alterar
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input
+                      type="radio"
+                      name="options"
+                      id="option2"
+                      autocomplete="off"
+                    />
+                    Apagar
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input
+                      type="radio"
+                      name="options"
+                      id="option3"
+                      autocomplete="off"
+                    />
+                    Adicionar
+                  </label>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Entrega de Geladeira</td>
+              <td>Frete</td>
+              <td>
+                200,00R$
+              </td>
+              <td>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-secondary active">
+                    <input
+                      type="radio"
+                      name="options"
+                      id="option1"
+                      autocomplete="off"
+                      checked
+                    />
+                    Alterar
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input
+                      type="radio"
+                      name="options"
+                      id="option2"
+                      autocomplete="off"
+                    />
+                    Apagar
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input
+                      type="radio"
+                      name="options"
+                      id="option3"
+                      autocomplete="off"
+                    />
+                    Adicionar
+                  </label>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Instalação de Ar Condicionado</td>
+              <td>Instalação</td>
+              <td>
+                700,00R$
+              </td>
+              <td>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-secondary active">
+                    <input
+                      type="radio"
+                      name="options"
+                      id="option1"
+                      autocomplete="off"
+                      checked
+                    />
+                    Alterar
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input
+                      type="radio"
+                      name="options"
+                      id="option2"
+                      autocomplete="off"
+                    />
+                    Apagar
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input
+                      type="radio"
+                      name="options"
+                      id="option3"
+                      autocomplete="off"
+                    />
+                    Adicionar
+                  </label>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <footer class="">©2022, para os melhores de TI &#10084;</footer>
+    </div>
+  </body>
+</html>
